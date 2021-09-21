@@ -293,6 +293,8 @@ public abstract class EC2AbstractSlave extends Slave {
             return 4;
         case M5aLarge:
             return 4;
+        case M6iLarge:
+            return 4;
         case T3Xlarge:
             return 5;
         case T3aXlarge:
@@ -329,6 +331,8 @@ public abstract class EC2AbstractSlave extends Slave {
             return 13;
         case M5aXlarge:
             return 13;
+        case M6iXlarge:
+            return 13;
         case A14xlarge:
             return 14;
         case C3Xlarge:
@@ -350,6 +354,8 @@ public abstract class EC2AbstractSlave extends Slave {
         case M52xlarge:
             return 26;
         case M5a2xlarge:
+            return 26;
+        case M6i2xlarge:
             return 26;
         case G22xlarge:
             return 26;
@@ -383,6 +389,8 @@ public abstract class EC2AbstractSlave extends Slave {
             return 55;
         case M5a4xlarge:
             return 55;
+        case M6i4xlarge:
+            return 55;
         case Cc28xlarge:
             return 88;
         case Cr18xlarge:
@@ -390,6 +398,8 @@ public abstract class EC2AbstractSlave extends Slave {
         case C38xlarge:
             return 108;
         case C48xlarge:
+            return 108;
+        case M6i8xlarge:
             return 108;
         case C59xlarge:
             return 108;
@@ -401,7 +411,11 @@ public abstract class EC2AbstractSlave extends Slave {
             return 120;
         case M5a12xlarge:
             return 120;
+        case M6i12xlarge:
+            return 120;
         case M416xlarge:
+            return 160;
+        case M6i16xlarge:
             return 160;
         case C518xlarge:
             return 216;
@@ -410,6 +424,8 @@ public abstract class EC2AbstractSlave extends Slave {
         case M524xlarge:
             return 240;
         case M5a24xlarge:
+            return 240;
+        case M6i24xlarge:
             return 240;
          case Mac1Metal:
             return 1;
